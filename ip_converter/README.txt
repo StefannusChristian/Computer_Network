@@ -1,0 +1,1 @@
+These are my orginal algorithms for converting IPv4 and IPv6 to its binary representation and hexadecimal representation.
