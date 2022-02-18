@@ -90,9 +90,3 @@ def convert_to_hexadecimal(binary_address: str):
     groups = make_groups(hexa_result)
     result = add_double_dots(groups)
     return result
-
-
-if __name__ == '__main__':
-    binary_address = '00100110110110110100001100001101:0110001100001101:0100001000001101:0101001010001101:0100001000001001:0100001000001101:0100001010000101'
-    result = convert_to_hexadecimal(binary_address)
-    print(result)

@@ -65,7 +65,6 @@ def convert_ip4_to_binary(ip_address: str):
 
 
 if __name__ == '__main__':
-    result = (convert_ip4_to_binary('66.94.29.13'))
-    expected_result = '01000010.01011110.00011101.00001101'
-    assert result == expected_result
-    print(result)
+    ip_addresses = ['108.78.154.65','149.77.68.12','110.218.245.87','31.43.145.147','215.189.199.121','246.179.48.184','15.217.34.130','144.222.111.162','151.79.14.47','26.152.20.52']
+    for i in ip_addresses:
+        print(convert_ip4_to_binary(i))
